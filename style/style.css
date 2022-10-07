@@ -1,0 +1,355 @@
+*{
+    color: white;
+    
+}
+body{
+    background-color: #1b2030;
+}
+.main-sec{
+    width: 50%;
+}
+.top_bar .logo img{
+    height: 66px ;
+    width: 96px;
+}
+.main_sec .main-sec_head{
+    font-size: 4.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main_sec .main-se_para{
+    font-size: 1.0em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.form-sec{
+    padding: 127px 74px 135px 74px;
+    background-color: #292e41;
+    clip-path:polygon(0% 0%, 100% 22%, 100% 100%, 0% 82%);
+}
+.btn{
+    clip-path:polygon(0% 0%, 100% 22%, 100% 100%, 0% 82%);
+    border: 0px;
+    border-radius: 0px;
+    padding: 13px 26px ;
+    background-color: #f12d6e;
+}
+.btn:hover{
+    
+    background-color: #a00c3d;
+}
+.main_sec .form{
+    width: 35%;
+    margin: auto;
+}
+.form input:focus,.form textarea:focus{
+    outline: none;
+   border-bottom: 2px solid #f12d6e;
+}
+input{       
+    color: rgb(255, 255, 255);
+    padding: 11px 8px 13px 8px;
+    margin: 0px 5px 28px 0px;
+    border: none;
+    border-bottom: 2px solid #f8f5f6;
+    width: 100%;
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+}
+textarea{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 11px 8px 13px 8px;
+    border: none;
+    border-bottom: 2px solid #f8f5f6;
+}
+.form p{
+    position: relative;
+    left: 25%;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.form .form_msg{
+    width: 89%;
+}
+/* about */
+.abt-sec .abt-head{
+    font-size:2.5em ;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+}
+.abt-sec .main_head{
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.abt-sec .abt-content{
+    font-size: 1.0em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.abt-part-2 img{
+    height: 497px;
+    width: 586px;
+}
+.abt-sec{
+    padding: 50px 30px 57px 30px  ;
+    background-color: #292e41
+    
+}
+/* section servicce */
+.service-sec{
+    padding: 50px 30px 0px 30px ;
+}
+.service-sec .main-sec_head{
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.c1{
+    clip-path: polygon(7% 0, 100% 0, 91% 100%, 0% 100%);
+    padding: 10px 53px;
+    z-index: 1;
+}
+/* fourth_sec */
+.fourth_sec{
+    background-color: #292e41;
+    clip-path:polygon(0% 0%, 100% 22%, 100% 100%, 0% 82%);
+    padding: 228px 30px 114px 30px;
+    height: fit-content;
+}
+.fourth_sec .main_head{
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fourth_sec .conta_content{
+    font-size: 1.0em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.tra-ico{
+    transform: rotate(45deg);
+    background-color: #1b2030;
+}
+.tra-ico p{
+    transform: rotate(-45deg);
+}
+/* project slider */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-slide:nth-child(even){
+    clip-path: polygon(0% 22%, 100% 0%, 100% 81%, 0% 99%);
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    clip-path:polygon(0% 0%, 100% 22%, 100% 100%, 0% 82%);
+    border-radius: 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    width: 380px !important;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  .proj-det{
+    background-color: #292e41;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    text-transform: capitalize;
+    display: none;
+    /* bottom: 0px; */
+    z-index: 1;
+  
+  }
+  @keyframes hoveranimate{
+    0%{
+transform: translateY(50px);
+opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+  .swiper-slide:hover .proj-det{
+    display: unset;
+    animation:hoveranimate .6s ease 0s 1 both ;
+      backdrop-filter: blur(5px);
+  }
+  .rev_sec .main_head{
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    animation-name:hoveranimate;
+    animation-duration: 4s;
+  
+  }
+  .rev_sec{
+    background-color: #292e41;
+    padding: 50px 0px ;
+  }
+/* responsive */
+@media screen and (min-width:992px) {
+    .ds-992{
+        display: none;
+    }
+}
+@media screen and ((max-width: 992px)) {
+    .form-sec{
+        padding: 127px 45px 104px 45px;
+    }
+    .abt-part-2 img{
+        height: 379px;
+        width: 500px;
+        margin: 0px -66px;
+    }
+    .main_sec .main-sec_head{
+        font-size: 3.5em;
+    }
+    .abt-sec .main_head,.service-sec .main-sec_head,.fourth_sec .main_head{
+        font-size: 3.3em;
+    }
+    .main-sec_head{
+        margin: 0px;
+    }
+
+    .c1{
+        width: 74% !important;
+        padding: 10px 24px !important;
+    }
+    .c1 img{
+        height: 107px !important;
+    }
+    .ds-992{
+        display: block;
+    }
+    .dh-992{
+        display: none;
+    }
+    .cweb{
+        top:46% !important;
+    }
+    
+    
+}
+@media screen and (max-width:835px) {
+    .ds-992{
+        display: none;
+    }
+    .dh-992{
+        display: unset;
+    }
+}
+@media screen and (max-width:778px) {
+    .main-sec{
+        width: 87%;
+        margin: auto;
+    }
+    .main_sec .form{
+        width: 67%;
+        margin: auto;
+    }
+    .ds-992{
+        display: none;
+    }
+    .dh-992{
+        display: unset;
+    }
+    .abt-cont{
+        flex-wrap: wrap;
+    }
+    .tra-ico{
+        margin: auto;
+    }
+    .serv_head{
+        width: 100%;
+    }
+    .serv_card{
+        width: 100%;
+    }
+    .main_sec .main-sec_head{
+        font-size: 3.5em;
+        text-align: center;
+    }
+    .abt-sec .main_head,.service-sec .main-sec_head,.fourth_sec .main_head{
+        font-size: 3.3em;
+        text-align: center;
+    }
+    .c1{
+        width: 100%;
+        position: static  !important;
+    }
+    .fourth_sec{
+        clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%); 
+    padding: 149px 30px 155px 30px;
+    height: fit-content;
+
+    }
+    .ww-d78{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    .main-sec{
+        width: 95%;
+    }
+    .form-sec{
+        clip-path: polygon(0% 0%, 100% 13%, 100% 100%, 0% 87%);
+        padding: 78px 45px 87px 45px;
+    }
+    .main_sec .form{
+        width: 95%;
+    }
+    .main_sec .main-sec_head{
+        font-size: 3.5em;
+        text-align: center;
+    }
+    .abt-sec .main_head,.service-sec .main-sec_head,.fourth_sec .main_head{
+        font-size: 3.3em;
+        text-align: center;
+    }
+    .serv_card{
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+    .c1{
+        margin: 20px 0px ;
+    }
+    .ww-d78{
+        margin: auto;
+    }
+    .ww-d78 p{
+        text-align: justify;
+    }
+    .abt-part-2 img{
+        width: 299px ;
+        height: 341px;
+    }
+    .fourth_sec{
+        
+    clip-path: polygon(0% 0%, 100% 9%, 100% 100%, 0% 91%);
+    padding: 100px 30px 126px 30px;
+    }
+}
